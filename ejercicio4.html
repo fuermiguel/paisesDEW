@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es">
+
+<head>
+    <title>Ejemplo de formulario</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="./css/formulario.css" />
+    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+
+    <script src="./src/Pais.js"></script>
+    <script src="./src/ListaPaises.js"></script>
+    <script src="./src/funcionesAuxiliares.js"></script>
+    <script src="./src/ejercicio4.js"></script>
+
+</head>
+
+<body>
+
+    <h3>Formulario</h3>
+
+    <form id="formulario" action="#" method="get">
+
+        <div class="linea_formulario limpia">
+            <label for="codigo">Código</label>
+            <input type="text" name="codigo" id="codigo" />
+        </div>
+
+        <div class="linea_formulario limpia">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" />
+        </div>
+
+
+        <div class="linea_formulario limpia">
+            <label for="poblacion">Población</label>
+            <input type="text" name="poblacion" id="poblacion" />
+        </div>
+
+
+
+
+        <div class="linea_formulario limpia">
+            <label for="listado">Paises:</label>
+            <textarea name="listado" id="listado"> Listado de Paises</textarea>
+        </div>
+
+
+        <div class="linea_formulario limpia">
+            <input type="button" name="agregar" id="agregar" value="Añadir Pais" />
+
+        </div>
+    </form>
+
+
+</body>
+
+</html>
